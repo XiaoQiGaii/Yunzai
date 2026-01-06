@@ -2,6 +2,9 @@ import Renderer from "../../../lib/renderer/Renderer.js"
 import os from "node:os"
 import lodash from "lodash"
 import puppeteer from "puppeteer"
+import { ulid } from "ulid"
+import timers from "node:timers/promises"
+import fs from "node:fs/promises"
 // 暂时保留对原config的兼容
 import cfg from "../../../lib/config/config.js"
 
@@ -14,7 +17,7 @@ export default class Puppeteer extends Renderer {
     super({
       id: "puppeteer",
       type: "image",
-      render: "screenshot"
+      render: "screenshot",
     })
     this.browser = false
     this.lock = false
@@ -24,13 +27,9 @@ export default class Puppeteer extends Renderer {
     /** 截图次数 */
     this.renderNum = 0
     this.config = {
-      headless: config.headless || "new",
-      args: config.args || [
-        "--disable-gpu",
-        "--disable-setuid-sandbox",
-        "--no-sandbox",
-        "--no-zygote"
-      ]
+      headless: "new",
+      args: ["--disable-gpu", "--disable-setuid-sandbox", "--no-sandbox", "--no-zygote"],
+      ...config,
     }
     if (config.chromiumPath || cfg?.bot?.chromium_path)
       /** chromium其他路径 */
@@ -81,25 +80,25 @@ export default class Puppeteer extends Renderer {
     } catch {}
 
     if (!this.browser || !connectFlag) {
+      let config = this.config
+      if (!config.userDataDir) {
+        await fs.rm("temp/puppeteer", { force: true, recursive: true }).catch(() => {})
+        config = { ...config, userDataDir: `temp/puppeteer/${ulid()}` }
+      }
       // 如果没有实例，初始化puppeteer
-      this.browser = await puppeteer.launch(this.config).catch((err, trace) => {
-        let errMsg = err.toString() + (trace ? trace.toString() : "")
-        if (typeof err == "object") {
-          logger.error(JSON.stringify(err))
-        } else {
-          logger.error(err.toString())
-          if (errMsg.includes("Could not find Chromium")) {
-            logger.error("没有正确安装 Chromium，可以尝试执行安装命令：node node_modules/puppeteer/install.js")
-          } else if (errMsg.includes("cannot open shared object file")) {
-            logger.error("没有正确安装 Chromium 运行库")
-          }
-        }
+      this.browser = await puppeteer.launch(config).catch(async (err, trace) => {
+        const errMsg = err.toString() + (trace ? trace.toString() : "")
         logger.error(err, trace)
+        if (errMsg.includes("Could not find Chromium"))
+          logger.error(
+            "没有正确安装 Chromium，可以尝试执行安装命令：node node_modules/puppeteer/install.js",
+          )
+        else if (errMsg.includes("cannot open shared object file"))
+          logger.error("没有正确安装 Chromium 运行库")
       })
     }
 
     this.lock = false
-
     if (!this.browser) {
       logger.error("puppeteer Chromium 启动失败")
       return false
@@ -137,8 +136,7 @@ export default class Puppeteer extends Renderer {
           break
         }
       }
-    } catch (e) {
-    }
+    } catch (e) {}
     mac = mac.replace(/:/g, "")
     return mac
   }
@@ -159,8 +157,7 @@ export default class Puppeteer extends Renderer {
    * @return img 不做segment包裹
    */
   async screenshot(name, data = {}) {
-    if (!await this.browserInit())
-      return false
+    if (!(await this.browserInit())) return false
     const pageHeight = data.multiPageHeight || 4000
 
     const savePath = this.dealTpl(name, data)
@@ -189,7 +186,7 @@ export default class Puppeteer extends Renderer {
       const page = await this.browser.newPage()
       const pageGotoParams = lodash.extend(this.pageGotoParams, data.pageGotoParams || {})
       await page.goto(`file://${_path}${lodash.trim(savePath, ".")}`, pageGotoParams)
-      const body = await page.$("#container") || await page.$("body")
+      const body = (await page.$("#container")) || (await page.$("body"))
 
       // 计算页面高度
       const boundingBox = await body.boundingBox()
@@ -208,46 +205,42 @@ export default class Puppeteer extends Renderer {
         num = Math.round(boundingBox.height / pageHeight) || 1
       }
 
-      if (data.imgType === "png")
-        delete randData.quality
+      if (data.imgType === "png") delete randData.quality
 
       if (!data.multiPage) {
         buff = await body.screenshot(randData)
-        if (!Buffer.isBuffer(buff))
-          buff = Buffer.from(buff)
+        if (!Buffer.isBuffer(buff)) buff = Buffer.from(buff)
 
         this.renderNum++
         /** 计算图片大小 */
         const kb = (buff.length / 1024).toFixed(2) + "KB"
-        logger.mark(`[图片生成][${name}][${this.renderNum}次] ${kb} ${logger.green(`${Date.now() - start}ms`)}`)
+        logger.mark(
+          `[图片生成][${name}][${this.renderNum}次] ${kb} ${logger.green(`${Date.now() - start}ms`)}`,
+        )
         ret.push(buff)
       } else {
         // 分片截图
         if (num > 1) {
           await page.setViewport({
             width: boundingBox.width,
-            height: pageHeight + 100
+            height: pageHeight + 100,
           })
         }
         for (let i = 1; i <= num; i++) {
           if (i !== 1 && i === num)
             await page.setViewport({
               width: boundingBox.width,
-              height: parseInt(boundingBox.height) - pageHeight * (num - 1)
+              height: parseInt(boundingBox.height) - pageHeight * (num - 1),
             })
 
           if (i !== 1 && i <= num)
             await page.evaluate(pageHeight => window.scrollBy(0, pageHeight), pageHeight)
 
-          if (num === 1)
-            buff = await body.screenshot(randData)
-          else
-            buff = await page.screenshot(randData)
-          if (!Buffer.isBuffer(buff))
-            buff = Buffer.from(buff)
+          if (num === 1) buff = await body.screenshot(randData)
+          else buff = await page.screenshot(randData)
+          if (!Buffer.isBuffer(buff)) buff = Buffer.from(buff)
 
-          if (num > 2)
-            await Bot.sleep(200)
+          if (num > 2) await timers.setTimeout(200)
 
           this.renderNum++
 

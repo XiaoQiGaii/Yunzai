@@ -40,7 +40,6 @@ export class newcomer extends plugin {
         msg
       ])
     }
-    
   }
 }
 
@@ -49,7 +48,7 @@ export class outNotice extends plugin {
     super({
       name: "退群通知",
       dsc: "xx退群了",
-      event: "notice.group.decrease"
+      event: "notice.group.decrease",
     })
 
     /** 退群提示词 */
