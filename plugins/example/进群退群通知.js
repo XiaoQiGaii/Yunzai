@@ -13,6 +13,7 @@ export class newcomer extends plugin {
 
     /** 定义入群欢迎内容 */
     let msg = "欢迎新人！"
+    
     /** 冷却cd 30s */
     let cd = 30
 
@@ -22,11 +23,24 @@ export class newcomer extends plugin {
     redis.set(key, "1", { EX: cd })
 
     /** 回复 */
-    await this.reply([
-      segment.at(this.e.user_id),
-      // segment.image(),
-      msg
-    ])
+    if (this.e.group_id == 749766601)
+    {
+      await this.reply([
+        segment.at(this.e.user_id),
+        segment.image("file:///" + process.cwd() + "/resources/welcome/huanyin.png"),
+        msg,
+        "记得查看群公告来了解教程哦~"
+      ])
+    }
+    else
+    {
+      await this.reply([
+        segment.at(this.e.user_id),
+        segment.image("file:///" + process.cwd() + "/resources/welcome/huanyin.png"),
+        msg
+      ])
+    }
+    
   }
 }
 
