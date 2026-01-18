@@ -1,0 +1,715 @@
+[00:57:59.646][MARK][34m[  TRSSYz  ][39m ----^_^----
+[00:57:59.647][MARK][34m[  TRSSYz  ][39m [33mTRSS-Yunzai v3.1.3 启动中...[39m
+[00:57:59.648][MARK][34m[  TRSSYz  ][39m [36mhttps://github.com/TimeRainStarSky/Yunzai[39m
+[00:58:00.352][MARK][34m[  Server  ][39m 启动 HTTP 服务器 [32mhttp://[::]:2536[39m
+[00:58:00.993][MARK][34m[  TRSSYz  ][39m 按钮载入成功
+[00:58:01.741][ERRO][34m[  Plugin  ][39m 插件加载错误 [31mAtlas[39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\Atlas\apps\atlas.js
+[90m    at finalizeResolution (node:internal/modules/esm/resolve:275:11)[39m
+[90m    at moduleResolve (node:internal/modules/esm/resolve:860:10)[39m
+[90m    at defaultResolve (node:internal/modules/esm/resolve:984:11)[39m
+[90m    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)[39m
+[90m    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)[39m
+[90m    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)[39m
+[90m    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)[39m
+[90m    at ModuleJob._link (node:internal/modules/esm/module_job:135:49)[39m {
+  [stack]: [36m[Getter/Setter:[39m [32m"Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\genshin\\model\\gsCfg.js' imported from C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\Atlas\\apps\\atlas.js\n"[39m +
+    [32m'    at finalizeResolution (node:internal/modules/esm/resolve:275:11)\n'[39m +
+    [32m'    at moduleResolve (node:internal/modules/esm/resolve:860:10)\n'[39m +
+    [32m'    at defaultResolve (node:internal/modules/esm/resolve:984:11)\n'[39m +
+    [32m'    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)\n'[39m +
+    [32m'    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)\n'[39m +
+    [32m'    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)\n'[39m +
+    [32m'    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)\n'[39m +
+    [32m'    at ModuleJob._link (node:internal/modules/esm/module_job:135:49)'[39m[36m][39m,
+  code: [32m'ERR_MODULE_NOT_FOUND'[39m,
+  url: [32m'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'[39m,
+  [message]: [32m"Cannot find module 'C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\genshin\\model\\gsCfg.js' imported from C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\Atlas\\apps\\atlas.js"[39m,
+  [2m[[32mSymbol(kIsNodeError)[39m]: [36m[Getter:[39m [33mtrue[39m[36m][39m[22m
+}
+[00:58:01.874][MARK][34m[  TRSSYz  ][39m [34m[MAA HTTP Server][39m 获取任务端点：[32mhttp://localhost:25087/maa/getTask[39m
+[00:58:01.874][MARK][34m[  TRSSYz  ][39m [34m[MAA HTTP Server][39m 汇报任务端点：[32mhttp://localhost:25087/maa/reportStatus[39m
+[00:58:03.911][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mAnimeCharacterSearch[39m
+[00:58:03.912][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'form-data' imported from C:\Users\21809\Githubs\Yunzai\plugins\hanhan-plugin\apps\AnimeCharacterSearch.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+[00:58:03.913][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mPicEval[39m
+[00:58:03.913][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'jimp' imported from C:\Users\21809\Githubs\Yunzai\plugins\hanhan-plugin\apps\PicEval.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:268:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:854:18)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+[00:58:04.094][ERRO][34m[  TRSSYz  ][39m 【[31m游戏注册时间查询[39m】模块载入失败！
+[00:58:04.095][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg' imported from C:\Users\21809\Githubs\Yunzai\plugins\xiaofei-plugin\apps\游戏注册时间查询.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:577:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:576:21) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg'
+}
+[00:58:04.096][ERRO][34m[  TRSSYz  ][39m 【[31m通行证ck转米游社ck[39m】模块载入失败！
+[00:58:04.096][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg' imported from C:\Users\21809\Githubs\Yunzai\plugins\xiaofei-plugin\apps\通行证ck转米游社ck.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:577:36)
+    at TracingChannel.tracePromise (node:diagnostics_channel:344:14)
+    at ModuleLoader.import (node:internal/modules/esm/loader:576:21) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg'
+}
+[00:58:05.199][ERRO][34m[  Plugin  ][39m 插件加载错误 [31mflower-plugin[39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\flower-plugin\GachaMOD\Genshin\apps\admin.js
+[90m    at finalizeResolution (node:internal/modules/esm/resolve:275:11)[39m
+[90m    at moduleResolve (node:internal/modules/esm/resolve:860:10)[39m
+[90m    at defaultResolve (node:internal/modules/esm/resolve:984:11)[39m
+[90m    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)[39m
+[90m    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)[39m
+[90m    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)[39m
+[90m    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)[39m
+[90m    at ModuleJob._link (node:internal/modules/esm/module_job:135:49)[39m {
+  [stack]: [36m[Getter/Setter:[39m [32m"Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\genshin\\model\\gsCfg.js' imported from C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\flower-plugin\\GachaMOD\\Genshin\\apps\\admin.js\n"[39m +
+    [32m'    at finalizeResolution (node:internal/modules/esm/resolve:275:11)\n'[39m +
+    [32m'    at moduleResolve (node:internal/modules/esm/resolve:860:10)\n'[39m +
+    [32m'    at defaultResolve (node:internal/modules/esm/resolve:984:11)\n'[39m +
+    [32m'    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)\n'[39m +
+    [32m'    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)\n'[39m +
+    [32m'    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)\n'[39m +
+    [32m'    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)\n'[39m +
+    [32m'    at ModuleJob._link (node:internal/modules/esm/module_job:135:49)'[39m[36m][39m,
+  code: [32m'ERR_MODULE_NOT_FOUND'[39m,
+  url: [32m'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'[39m,
+  [message]: [32m"Cannot find module 'C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\genshin\\model\\gsCfg.js' imported from C:\\Users\\21809\\Githubs\\Yunzai\\plugins\\flower-plugin\\GachaMOD\\Genshin\\apps\\admin.js"[39m,
+  [2m[[32mSymbol(kIsNodeError)[39m]: [36m[Getter:[39m [33mtrue[39m[36m][39m[22m
+}
+[00:58:05.217][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mGenshinHistory[39m
+[00:58:05.217][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\earth-k-plugin\apps\GenshinHistory.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'
+}
+[00:58:05.217][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mgenshinSpeak[39m
+[00:58:05.217][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\earth-k-plugin\apps\genshinSpeak.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'
+}
+[00:58:05.218][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mGuessGenshin[39m
+[00:58:05.218][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\earth-k-plugin\apps\GuessGenshin.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'
+}
+[00:58:05.218][ERRO][34m[  TRSSYz  ][39m 载入插件错误：[31mopenai[39m
+[00:58:05.218][ERRO][34m[  TRSSYz  ][39m Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\21809\Githubs\Yunzai\plugins\genshin\model\gsCfg.js' imported from C:\Users\21809\Githubs\Yunzai\plugins\earth-k-plugin\apps\openai.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:860:10)
+    at defaultResolve (node:internal/modules/esm/resolve:984:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:685:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:634:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:617:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:273:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:135:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/Users/21809/Githubs/Yunzai/plugins/genshin/model/gsCfg.js'
+}
+[00:58:05.895][ERRO][34m[unhandled.][39m Error: fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources'
+'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	MATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources
+
+    at GitTools.checkRepo [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mplugins/Guoba-Plugin/framework/src/components/GitTools.js:112:13[90m)[39m
+    at async GitTools.init [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mplugins/Guoba-Plugin/framework/src/components/GitTools.js:57:22[90m)[39m {
+  [stack]: [36m[Getter/Setter:[39m [32m"Error: fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources'\n"[39m +
+    [32m"'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources' is owned by:\n"[39m +
+    [32m'\tBUILTIN/Administrators (S-1-5-32-544)\n'[39m +
+    [32m'but the current user is:\n'[39m +
+    [32m'\tMATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)\n'[39m +
+    [32m'To add an exception for this directory, call:\n'[39m +
+    [32m'\n'[39m +
+    [32m'\tgit config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources\n'[39m +
+    [32m'\n'[39m +
+    [32m'    at GitTools.checkRepo (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:112:13)\n'[39m +
+    [32m'    at async GitTools.init (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:57:22)'[39m[36m][39m,
+  [message]: [32m"fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources'\n"[39m +
+    [32m"'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources' is owned by:\n"[39m +
+    [32m'\tBUILTIN/Administrators (S-1-5-32-544)\n'[39m +
+    [32m'but the current user is:\n'[39m +
+    [32m'\tMATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)\n'[39m +
+    [32m'To add an exception for this directory, call:\n'[39m +
+    [32m'\n'[39m +
+    [32m'\tgit config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/GuobaResources\n'[39m
+}
+[00:58:05.896][ERRO][34m[unhandled.][39m Error: fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex'
+'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	MATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex
+
+    at GitTools.checkRepo [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mplugins/Guoba-Plugin/framework/src/components/GitTools.js:112:13[90m)[39m
+    at async GitTools.init [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mplugins/Guoba-Plugin/framework/src/components/GitTools.js:57:22[90m)[39m {
+  [stack]: [36m[Getter/Setter:[39m [32m"Error: fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex'\n"[39m +
+    [32m"'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex' is owned by:\n"[39m +
+    [32m'\tBUILTIN/Administrators (S-1-5-32-544)\n'[39m +
+    [32m'but the current user is:\n'[39m +
+    [32m'\tMATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)\n'[39m +
+    [32m'To add an exception for this directory, call:\n'[39m +
+    [32m'\n'[39m +
+    [32m'\tgit config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex\n'[39m +
+    [32m'\n'[39m +
+    [32m'    at GitTools.checkRepo (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:112:13)\n'[39m +
+    [32m'    at async GitTools.init (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:57:22)'[39m[36m][39m,
+  [message]: [32m"fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex'\n"[39m +
+    [32m"'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex' is owned by:\n"[39m +
+    [32m'\tBUILTIN/Administrators (S-1-5-32-544)\n'[39m +
+    [32m'but the current user is:\n'[39m +
+    [32m'\tMATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)\n'[39m +
+    [32m'To add an exception for this directory, call:\n'[39m +
+    [32m'\n'[39m +
+    [32m'\tgit config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex\n'[39m
+}
+[00:58:06.079][MARK][34m[  TRSSYz  ][39m [34m[Skland PLUGIN][39m 同步了 [32m9[39m 个用户信息
+[00:58:06.205][MARK][34m[  TRSSYz  ][39m [Guoba] 当前运行在TRSS环境，已共享端口号
+[00:58:06.379][MARK][34m[  TRSSYz  ][39m [Handler][Reg]: [ws-plugin-tool][ws.tool.toImg]
+[00:58:06.381][MARK][34m[  TRSSYz  ][39m [Handler][Reg]: [ws-plugin-tool][ws.tool.findUserId]
+[00:58:06.538][MARK][34m[  TRSSYz  ][39m ####################################
+[00:58:06.538][MARK][34m[  TRSSYz  ][39m # [32m[Guoba] 启动成功 >_< 耗时: 325ms[39m #
+[00:58:06.538][MARK][34m[  TRSSYz  ][39m ####################################
+[00:58:06.539][MARK][34m[  TRSSYz  ][39m [Guoba] 欢迎使用锅巴插件，当前版本：1.4.1
+[00:58:06.542][ERRO][34m[  TRSSYz  ][39m Error: fatal: detected dubious ownership in repository at 'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex'
+'C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex' is owned by:
+	BUILTIN/Administrators (S-1-5-32-544)
+but the current user is:
+	MATOIRYUKO/21809 (S-1-5-21-4102668230-1230730970-2226400301-1001)
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/data/repo/PluginsIndex
+
+    at GitTools.checkRepo (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:112:13)
+    at async GitTools.init (file:///C:/Users/21809/Githubs/Yunzai/plugins/Guoba-Plugin/framework/src/components/GitTools.js:57:22)
+[00:58:07.912][WARN][34m[  TRSSYz  ][39m ⚠️ 访问统计数据失败，超时或网络错误
+[00:58:07.954][MARK][34m[   stdin  ][39m 标准输入(stdin) 已连接
+[00:58:07.957][MARK][34m[  TRSSYz  ][39m ----^_^----
+[00:59:20.331][MARK][34m[ws://localhost:2536/OneBotv11 <=> ::ffff:127.0.0.1:60870-zMZSH89nWzBISmgV0rSjEg==][39m 建立连接 {
+  headers: {
+    [32m'x-self-id'[39m: [32m'1253081203'[39m,
+    authorization: [32m'Bearer'[39m,
+    [32m'x-client-role'[39m: [32m'Universal'[39m,
+    [32m'user-agent'[39m: [32m'OneBot/11'[39m,
+    [32m'sec-websocket-version'[39m: [32m'13'[39m,
+    [32m'sec-websocket-key'[39m: [32m'zMZSH89nWzBISmgV0rSjEg=='[39m,
+    connection: [32m'Upgrade'[39m,
+    upgrade: [32m'websocket'[39m,
+    host: [32m'localhost:2536'[39m
+  }
+}
+[01:00:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:00:00.018][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成6][39m
+[01:00:00.026][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.028][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成3][39m
+[01:00:00.031][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.041][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:00:00.042][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:00:00.044][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成13][39m
+[01:00:00.047][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.049][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成2][39m
+[01:00:00.055][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.075][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.079][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成4][39m
+[01:00:00.083][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.098][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成15][39m
+[01:00:00.102][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[01:00:00.106][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成4][39m
+[01:00:00.114][MARK][34m[Task(0 * * * *)][39m[32m[完成59][39m
+[01:00:57.793][MARK][34m[1253081203][39m OneBotv11(QQ) NapCat.Onebot v4.7.74 已连接
+[01:03:45.247][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][1次] 176.78KB [32m1699ms[39m
+[01:03:52.125][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][2次] 313.80KB [32m1353ms[39m
+[01:05:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:05:00.020][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:05:00.021][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:05:00.023][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:08:08.973][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][3次] 23.64KB [32m207ms[39m
+[01:10:00.017][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:10:00.019][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:10:00.021][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:10:00.022][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:13:12.305][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][4次] 119.50KB [32m248ms[39m
+[01:15:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:15:00.028][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:15:00.029][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:15:00.032][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:20:00.019][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:20:00.021][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[01:20:00.021][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:20:00.022][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:21:55.810][MARK][36m[你有没有听见炸群的悲鸣(314806317), skadi泡面批发(1245184550)][39m[31m[jm1248501][39m[34m[PDF发送插件(sendPdf)][39m[32m[完成1秒617][39m
+[01:23:11.006][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][5次] 26.18KB [32m1496ms[39m
+[01:23:17.223][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][6次] 29.52KB [32m224ms[39m
+[01:23:19.837][ERRO][34m[1253081203][39m 请求超时 {
+  action: [32m'send_msg'[39m,
+  params: {
+    group_id: [33m314806317[39m,
+    message: [
+      {
+        type: [32m'file'[39m,
+        data: {
+          type: [90mundefined[39m,
+          file: [32m'file://C:\\Users\\21809\\Githubs\\Yunzai\\temp\\01KF92230NT42K96TFR99TV9FZ'[39m,
+          name: [32m'1248501.pdf'[39m
+        }
+      },
+      [length]: [33m1[39m
+    ]
+  },
+  echo: [32m'01KF92231WZNXBGGY60ANEV2B6'[39m
+}
+[01:23:19.839][ERRO][34m[1253081203][39m 发送消息错误 {
+  type: [32m'file'[39m,
+  file: <Buffer 25 50 44 46 2d 31 2e 33 0a 25 bf f7 a2 fe 0a 31 32 39 20 30 20 6f 62 6a 0a 3c 3c 20 2f 4c 69 6e 65 61 72 69 7a 65 64 20 31 20 2f 4c 20 33 37 35 34 33 ... 37543258 more bytes>,
+  name: [32m'1248501.pdf'[39m
+} Error: 请求超时
+    at Proxy.makeError [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mlib/util.js:30:26[90m)[39m
+    at Timeout.<anonymous> [90m(file:///C:/Users/21809/Githubs/Yunzai/[39mplugins/adapter/OneBotv11.js:24:26[90m)[39m
+[90m    at listOnTimeout (node:internal/timers:594:17)[39m
+[90m    at process.processTimers (node:internal/timers:529:7)[39m {
+  [stack]: [36m[Getter/Setter:[39m [32m'Error: 请求超时\n'[39m +
+    [32m'    at Proxy.makeError (file:///C:/Users/21809/Githubs/Yunzai/lib/util.js:30:26)\n'[39m +
+    [32m'    at Timeout.<anonymous> (file:///C:/Users/21809/Githubs/Yunzai/plugins/adapter/OneBotv11.js:24:26)\n'[39m +
+    [32m'    at listOnTimeout (node:internal/timers:594:17)\n'[39m +
+    [32m'    at process.processTimers (node:internal/timers:529:7)'[39m[36m][39m,
+  [message]: [32m'请求超时'[39m,
+  action: [32m'send_msg'[39m,
+  params: {
+    group_id: [33m314806317[39m,
+    message: [
+      {
+        type: [32m'file'[39m,
+        data: {
+          type: [90mundefined[39m,
+          file: [32m'file://C:\\Users\\21809\\Githubs\\Yunzai\\temp\\01KF92230NT42K96TFR99TV9FZ'[39m,
+          name: [32m'1248501.pdf'[39m
+        }
+      },
+      [length]: [33m1[39m
+    ]
+  },
+  echo: [32m'01KF92231WZNXBGGY60ANEV2B6'[39m,
+  timeout: [33m60000[39m
+}
+[01:23:19.840][MARK][34m[ws://localhost:2536/OneBotv11 <≠> ::ffff:127.0.0.1:60870-zMZSH89nWzBISmgV0rSjEg==][39m 断开连接
+[01:23:49.853][MARK][34m[ws://localhost:2536/OneBotv11 <=> ::ffff:127.0.0.1:57253-jIglf+5RSvrnYBu2WDImrw==][39m 建立连接 {
+  headers: {
+    [32m'x-self-id'[39m: [32m'1253081203'[39m,
+    authorization: [32m'Bearer'[39m,
+    [32m'x-client-role'[39m: [32m'Universal'[39m,
+    [32m'user-agent'[39m: [32m'OneBot/11'[39m,
+    [32m'sec-websocket-version'[39m: [32m'13'[39m,
+    [32m'sec-websocket-key'[39m: [32m'jIglf+5RSvrnYBu2WDImrw=='[39m,
+    connection: [32m'Upgrade'[39m,
+    upgrade: [32m'websocket'[39m,
+    host: [32m'localhost:2536'[39m
+  }
+}
+[01:24:17.237][ERRO][34m[1253081203][39m 请求超时 {
+  action: [32m'send_msg'[39m,
+  params: {
+    group_id: [33m437441875[39m,
+    message: [
+      {
+        type: [32m'image'[39m,
+        data: {
+          type: [90mundefined[39m,
+          file: [32m'base64:///9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsKCwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAD7AqEDASIAAhEBAxEB/8QAHgABAAICAwEBAQAAAAAAAAAAAAUHBggCBAkDAQr/xABYEAABAwQBAgMEBAgHDQUGBwEBAgMEAAUGEQcSIQgTMRQiQVEVYZHTCRYjMlNVlNIXGUJxgZWxMzY'[39m... 39313 more characters,
+          name: [90mundefined[39m
+        }
+      },
+      [length]: [33m1[39m
+    ]
+  },
+  echo: [32m'01KF923V38FTJEJS5QB794FJXA'[39m
+}
+[01:24:17.237][ERRO][34m[  TRSSYz  ][39m [steam-plugin] 群消息发送失败: 437441875 Error: 请求超时
+    at Proxy.makeError (file:///C:/Users/21809/Githubs/Yunzai/lib/util.js:30:26)
+    at Timeout.<anonymous> (file:///C:/Users/21809/Githubs/Yunzai/plugins/adapter/OneBotv11.js:24:26)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7) {
+  action: 'send_msg',
+  params: { group_id: 437441875, message: [ [Object] ] },
+  echo: '01KF923V38FTJEJS5QB794FJXA',
+  timeout: 60000
+}
+[01:24:45.935][MARK][34m[1253081203][39m OneBotv11(QQ) NapCat.Onebot v4.7.74 已连接
+[01:25:00.031][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:25:00.032][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:25:00.033][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:25:00.036][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[01:28:10.338][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][7次] 26.33KB [32m203ms[39m
+[01:28:13.922][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][8次] 29.68KB [32m176ms[39m
+[01:30:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:30:00.011][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:30:00.012][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:30:00.013][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:35:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:35:00.021][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[01:35:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:35:00.024][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:38:08.401][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][9次] 30.06KB [32m245ms[39m
+[01:40:00.007][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:40:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:40:00.010][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:40:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:45:00.016][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:45:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:45:00.018][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:45:00.020][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[01:50:00.032][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:50:00.033][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[01:50:00.035][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:50:00.036][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:53:08.218][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][10次] 55.66KB [32m201ms[39m
+[01:55:00.004][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[01:55:00.005][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[01:55:00.007][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[01:55:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:00:00.033][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:00:00.034][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[02:00:00.035][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:00:00.036][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:00:00.037][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.041][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成4][39m
+[02:00:00.043][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.053][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成10][39m
+[02:00:00.055][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.056][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成1][39m
+[02:00:00.058][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.068][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.070][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成3][39m
+[02:00:00.073][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.082][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[02:00:00.083][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成1][39m
+[02:00:00.084][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成12][39m
+[02:00:00.088][MARK][34m[清语表情:表情包数据每日更新(0 0 2 * * ?)][39m[33m[开始处理][39m
+[02:00:00.114][MARK][34m[Task(0 * * * *)][39m[32m[完成56][39m
+[02:00:00.274][MARK][34m[  TRSSYz  ][39m [38;2;255;165;0m✅ 表情包数据更新完成 🎉[39m
+[02:00:00.274][MARK][34m[清语表情:表情包数据每日更新(0 0 2 * * ?)][39m[32m[完成187][39m
+[02:05:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:05:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[02:05:00.028][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:05:00.029][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[02:10:00.020][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:10:00.024][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成4][39m
+[02:10:00.025][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:10:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:13:08.640][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][11次] 90.94KB [32m219ms[39m
+[02:15:00.029][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:15:00.030][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:15:00.032][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:15:00.034][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:20:00.020][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:20:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:20:00.023][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:20:00.024][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:23:08.725][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][12次] 24.64KB [32m199ms[39m
+[02:25:00.009][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:25:00.010][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:25:00.011][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:25:00.014][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[02:28:08.446][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][13次] 29.21KB [32m166ms[39m
+[02:30:00.006][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:30:00.008][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:30:00.009][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:30:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[02:33:09.911][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][14次] 77.01KB [32m1198ms[39m
+[02:34:06.701][MARK][36m[你有没有听见炸群的悲鸣(314806317), sikad(3504791750)][39m[31m[jm1221991][39m[34m[PDF发送插件(sendPdf)][39m[32m[完成1秒290][39m
+[02:35:00.004][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:35:00.005][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:35:00.006][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:35:00.008][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:40:00.016][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:40:00.018][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:40:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:40:00.021][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[02:45:00.029][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:45:00.032][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成3][39m
+[02:45:00.033][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:45:00.036][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[02:48:07.884][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][15次] 27.79KB [32m165ms[39m
+[02:50:00.007][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:50:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:50:00.010][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:50:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:55:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[02:55:00.018][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[02:55:00.020][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[02:55:00.021][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[02:58:09.177][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][16次] 27.36KB [32m1264ms[39m
+[03:00:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:00:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[03:00:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:00:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[03:00:00.029][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.029][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成0秒][39m
+[03:00:00.031][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.038][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.040][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成2][39m
+[03:00:00.040][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成10][39m
+[03:00:00.042][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.050][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.052][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成2][39m
+[03:00:00.054][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.061][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成7][39m
+[03:00:00.062][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[03:00:00.064][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成2][39m
+[03:00:00.069][MARK][34m[Task(0 * * * *)][39m[32m[完成27][39m
+[03:05:00.001][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:05:00.003][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[03:05:00.005][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:05:00.006][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[03:10:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:10:00.014][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:10:00.015][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:10:00.016][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:15:00.002][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:15:00.003][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[03:15:00.004][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:15:00.006][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[03:20:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:20:00.024][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:20:00.025][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:20:00.025][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[03:25:00.023][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:25:00.024][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:25:00.026][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:25:00.028][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:28:09.123][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][17次] 48.07KB [32m1148ms[39m
+[03:30:00.002][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:30:00.003][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:30:00.004][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:30:00.005][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:33:08.292][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][18次] 46.74KB [32m199ms[39m
+[03:35:00.020][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:35:00.022][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[03:35:00.023][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:35:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[03:40:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:40:00.024][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:40:00.025][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:40:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:43:09.220][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][19次] 26.66KB [32m1130ms[39m
+[03:45:00.007][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:45:00.008][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[03:45:00.011][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:45:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[03:50:00.023][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:50:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[03:50:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:50:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:53:08.711][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][20次] 46.65KB [32m300ms[39m
+[03:55:00.009][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[03:55:00.010][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[03:55:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[03:55:00.013][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:00:00.016][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:00:00.018][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:00:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:00:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[04:00:00.021][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.024][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成3][39m
+[04:00:00.025][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.033][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成8][39m
+[04:00:00.035][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.035][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成0秒][39m
+[04:00:00.037][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.046][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.049][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成3][39m
+[04:00:00.051][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.060][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[04:00:00.061][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成1][39m
+[04:00:00.062][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成11][39m
+[04:00:00.064][MARK][34m[[Skland-Plugin] 自动签到(0 4 * * *)][39m[33m[开始处理][39m
+[04:00:00.080][MARK][34m[Task(0 * * * *)][39m[32m[完成43][39m
+[04:05:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:05:00.012][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:05:00.014][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:05:00.015][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[04:08:15.159][MARK][34m[[Skland-Plugin] 自动签到(0 4 * * *)][39m[32m[完成8分15秒95][39m
+[04:10:00.017][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:10:00.019][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:10:00.021][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:10:00.022][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[04:15:00.004][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:15:00.005][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:15:00.008][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:15:00.011][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[04:20:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:20:00.026][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[04:20:00.028][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:20:00.029][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:25:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:25:00.028][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[04:25:00.028][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:25:00.030][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:30:00.010][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:30:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:30:00.014][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:30:00.014][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[04:35:00.026][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:35:00.027][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:35:00.029][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:35:00.030][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:40:00.014][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:40:00.016][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:40:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:40:00.018][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:45:00.008][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:45:00.009][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:45:00.010][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:45:00.012][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[04:46:36.181][MARK][36m[你有没有听见炸群的悲鸣(314806317), 实名上网杨小土(2931655974)][39m[31m[jm1027978][39m[34m[PDF发送插件(sendPdf)][39m[32m[完成776][39m
+[04:50:00.029][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:50:00.034][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[04:50:00.035][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:50:00.036][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:53:09.966][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][21次] 27.60KB [32m1270ms[39m
+[04:55:00.022][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[04:55:00.023][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[04:55:00.024][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[04:55:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[05:00:00.015][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:00:00.017][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[05:00:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:00:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成0秒][39m
+[05:00:00.021][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.022][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成1][39m
+[05:00:00.023][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.031][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.033][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成2][39m
+[05:00:00.034][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成11][39m
+[05:00:00.036][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.048][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.050][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成2][39m
+[05:00:00.051][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.061][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成10][39m
+[05:00:00.063][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[05:00:00.066][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成3][39m
+[05:00:00.070][MARK][34m[Task(0 * * * *)][39m[32m[完成34][39m
+[05:05:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:05:00.018][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:05:00.019][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:05:00.022][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[05:10:00.006][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:10:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[05:10:00.010][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:10:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:13:09.037][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][22次] 29.42KB [32m194ms[39m
+[05:15:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:15:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成2][39m
+[05:15:00.020][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:15:00.021][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[05:18:09.689][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][23次] 30.77KB [32m192ms[39m
+[05:18:11.638][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][24次] 27.05KB [32m206ms[39m
+[05:20:00.017][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:20:00.018][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[05:20:00.019][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:20:00.020][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:21:01.280][MARK][36m[你有没有听见炸群的悲鸣(314806317), skadi饮料批发(524743398)][39m[31m[🛌💤][39m[34m[小功能(bqhc)][39m[32m[完成703][39m
+[05:25:00.023][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:25:00.024][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:25:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:25:00.026][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[05:30:00.014][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:30:00.015][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成1][39m
+[05:30:00.016][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:30:00.017][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:33:09.537][MARK][34m[  TRSSYz  ][39m [图片生成][steam-plugin/inventory/index][25次] 26.43KB [32m356ms[39m
+[05:35:00.031][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:35:00.032][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:35:00.033][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:35:00.035][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[05:40:00.025][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:40:00.027][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[05:40:00.028][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:40:00.029][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:45:00.006][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:45:00.007][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:45:00.009][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:45:00.011][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[05:50:00.029][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:50:00.031][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[05:50:00.032][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:50:00.033][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:55:00.002][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[05:55:00.003][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成1][39m
+[05:55:00.004][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[05:55:00.007][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成3][39m
+[06:00:00.005][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[33m[开始处理][39m
+[06:00:00.007][MARK][34m[updateFishBasket(0 */5 * * * *)][39m[32m[完成2][39m
+[06:00:00.008][MARK][34m[updateStockPrices(*/5 * * * *)][39m[33m[开始处理][39m
+[06:00:00.011][MARK][34m[updateStockPrices(*/5 * * * *)][39m[32m[完成3][39m
+[06:00:00.013][MARK][34m[UpdateCinemaData(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.015][MARK][34m[UpdateCinemaData(0 * * * *)][39m[32m[完成3][39m
+[06:00:00.018][MARK][34m[FarmTask(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.030][MARK][34m[FarmTask(0 * * * *)][39m[32m[完成12][39m
+[06:00:00.032][MARK][34m[RealEstateUpdate(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.033][MARK][34m[RealEstateUpdate(0 * * * *)][39m[32m[完成1][39m
+[06:00:00.035][MARK][34m[Task(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.050][MARK][34m[hourlyUpdate(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.053][MARK][34m[hourlyUpdate(0 * * * *)][39m[32m[完成3][39m
+[06:00:00.055][MARK][34m[UpdatePoliceData(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.066][MARK][34m[TavernUpdate(0 * * * *)][39m[33m[开始处理][39m
+[06:00:00.067][MARK][34m[TavernUpdate(0 * * * *)][39m[32m[完成1][39m
+[06:00:00.068][MARK][34m[UpdatePoliceData(0 * * * *)][39m[32m[完成13][39m
+[06:00:00.074][MARK][34m[Task(0 * * * *)][39m[32m[完成39][39m

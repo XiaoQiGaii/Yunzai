@@ -1,0 +1,10 @@
+tips:
+  - 欢迎使用 TRSS-Yunzai ICQQ Plugin ! 作者：时雨🌌星空
+  - 参考：https://github.com/TimeRainStarSky/Yunzai-ICQQ-Plugin
+permission: master
+markdown:
+  mode: false
+  button: false
+  callback: true
+bot: {}
+token: []

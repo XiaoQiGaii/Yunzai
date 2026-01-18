@@ -1,0 +1,16 @@
+tips:
+  - 欢迎使用 TRSS-Yunzai QQBot Plugin ! 作者：时雨🌌星空
+  - 参考：https://github.com/TimeRainStarSky/Yunzai-QQBot-Plugin
+permission: master
+toQRCode: true
+toCallback: true
+toBotUpload: true
+hideGuildRecall: false
+imageLength: 3
+markdown:
+  template: abcdefghij
+bot:
+  sandbox: false
+  maxRetry: .inf
+  timeout: 30000
+token: []

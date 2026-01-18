@@ -1,0 +1,57 @@
+buyBack:
+  cooldown: 86400
+  maxTimes: 3
+  taxRate: 0.05
+rob:
+  cooldown: 600
+  successRate: 0.3
+  penalty: 0.1
+beg:
+  cooldown: 600
+  successRate: 0.5
+  penalty: 0.1
+work:
+  cooldown: 3600
+  slaveownerCooldown: 60
+purchase:
+  cooldown: 3600
+bank:
+  initialLimit: 1000
+  initialLevel: 1
+  upgradePriceMulti: 1.2
+  limitIncreaseMulti: 1.25
+  initialUpgradePrice: 100
+  interestRate: 0.01
+  maxInterestTime: 24
+training:
+  cooldown: 7200
+  successRate: 0.7
+  costRate: 0.1
+  valueIncreaseRate: 0.2
+arena:
+  cooldown: 7200
+  entryFee: 50
+  rewardRate: 0.2
+  valueBonus: 0.1
+ranking:
+  cooldown: 3600
+  baseReward: 10
+  winBonus: 0.2
+  tierBonus:
+    青铜: 1
+    白银: 1.2
+    黄金: 1.5
+    铂金: 2
+    钻石: 3
+transfer:
+  feeRate: 0.1
+  minAmount: 100
+weeklyReset:
+  enabled: true
+  resetTime:
+    day: 1
+    hour: 0
+    minute: 0
+  preserveData:
+    nickname: true
+    basicValue: 100

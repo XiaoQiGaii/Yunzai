@@ -1,0 +1,14 @@
+tips:
+  - 欢迎使用 TRSS Yunzai Plugin ! 作者：时雨🌌星空
+  - 按 Ctrl+Q Y 保存退出
+  - 参考：https://Yunzai.TRSS.me
+Voice:
+  GenshinVoiceApi: ""
+  ChatWaifuApi: ""
+RealESRGAN:
+  api: ""
+  format: jpg
+RemBG:
+  api: ""
+miHoYoLogin:
+  help: true
