@@ -1,0 +1,42 @@
+name: 文档反馈
+description: 反馈文档问题或改进建议
+title: "[文档] "
+labels: ["documentation"]
+body:
+  - type: input
+    attributes:
+      label: 文档链接
+      description: 请提供相关文档的链接或路径
+      placeholder: https://yenai.trss.me/xxx 或 docs/xxx.md
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 反馈类型
+      options:
+        - 文档错误
+        - 内容缺失
+        - 描述不清
+        - 排版问题
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 具体问题
+      description: 请详细描述文档存在的问题
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 改进建议
+      description: 请提供您的修改建议
+      placeholder: 建议修改为...
+
+  - type: textarea
+    attributes:
+      label: 补充说明
+      description: 其他需要补充的信息

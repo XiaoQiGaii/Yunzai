@@ -1,0 +1,8 @@
+*.psd
+.idea
+*.css.map
+/config/*.yaml
+/data/**
+/resources/blackword/**
+/GachaMOD/*/config/**
+/GachaMOD/*/data/**

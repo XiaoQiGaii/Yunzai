@@ -1,0 +1,35 @@
+# 基础设置
+base:
+  # 获取天气的城市
+  city: 北京
+  guide: true
+  # 是否要自动检查更新
+  checkUpdate: true
+  # 是否允许群聊登录
+  loginInGroup: false
+  # 是否只发送自定义地址
+  onlyCustomAddress: false
+  # 是否启用Github反代
+  githubReverseProxy: false
+  # Github反代地址
+  githubProxyUrl: ""
+# 服务器配置
+server:
+  # 启动地址（仅用于控制台输出）
+  # auto 为自动获取IP地址
+  host: auto
+  # 启动端口号（修改完需要重启）
+  port: 50831
+  # 项目部署路径（修改完需要重启）
+  mountPrefix: "/"
+  # 是否需要拼接端口号
+  splicePort: true
+  # 网站ICP备案号
+  ICPNo: ''
+  # 是否整合trss，若开启则会和trss共享端口号，并且默认挂载到 /guoba 路径下
+  helloTRSS: true
+
+# jwt配置
+jwt:
+  # JWT 秘钥（随机生成，非必要请勿修改！）
+  secret: ""

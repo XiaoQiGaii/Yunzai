@@ -1,0 +1,75 @@
+import { ConfigSchemaType } from "../../types";
+
+export const dailyReportSchema = (): ConfigSchemaType[] => [
+    {
+        label: "日报配置",
+        // 第二个分组标记开始
+        component: "SOFT_GROUP_BEGIN",
+    },
+    {
+        field: "dailyReport.useDailyReport",
+        label: "日报开关",
+        bottomHelpMessage: "若开启，BOT会启用 `#日报` 命令和定时发送任务",
+        component: "Switch",
+    },
+    {
+        field: "dailyReport.dailyReportFullShow",
+        label: "新闻是否显示完全信息",
+        bottomHelpMessage: "根据个人喜好调整：新闻单行显示/换行完全显示",
+        component: "Switch",
+    },
+    {
+        field: "dailyReport.alapiToken",
+        label: "alapi_token",
+        bottomHelpMessage: "如果发现无法生成图片时需填写该接口。填写内容：在https://admin.alapi.cn/user/login登录后，进入“我的API”获取token",
+        component: "Input",
+    },
+    {
+        field: "dailyReport.push",
+        label: "是否开启定时推送",
+        bottomHelpMessage: "开启后可在特定时刻自动推送日报到指定群组",
+        component: "Switch",
+    },
+    {
+        field: "dailyReport.dailyReportTime",
+        label: "定时发送日报时间",
+        bottomHelpMessage:
+            "秒[0,59] 分钟[0,59] 小时[0,23] 日期[1,31] 月份[1,12] 星期[0,7/SUN,SAT]，仅支持6位格式，多余位数会自动忽略",
+        component: "EasyCron",
+        componentProps: {
+            placeholder: "*表示任意，?表示不指定（月日和星期互斥）",
+        },
+    },
+    {
+        field: "dailyReport.pushGroupList",
+        label: "推送群组列表",
+        bottomHelpMessage: "推送群组列表",
+        component: "GSelectGroup",
+    },
+    {
+        field: "dailyReport.preHandle",
+        label: "预处理模式",
+        bottomHelpMessage: "开启后，会提前生成日报图片，调用指令或定时任务直接发送预生成的图片",
+        component: "Switch",
+    },
+    {
+        field: "dailyReport.preHandleTime",
+        label: "预处理时间",
+        bottomHelpMessage:
+            "推荐将该时间设为较早于定时推送时间",
+        component: "EasyCron",
+        componentProps: {
+            placeholder: "*表示任意，?表示不指定（月日和星期互斥）",
+        },
+    },
+    {
+        field: "dailyReport.preHandleRetryInterval",
+        label: "预处理重试间隔",
+        bottomHelpMessage: "预处理失败时，重试间隔时间，单位为秒。由于频繁重试可能会被接口限制，请合理设置间隔",
+        component: "InputNumber",
+        componentProps: {
+            min: 1,
+            step: 1,
+        },
+    },
+]

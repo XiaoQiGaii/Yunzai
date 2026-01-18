@@ -1,0 +1,12 @@
+{
+  "rod": "rod_01",
+  "bait": "bait_01",
+  "basket": "basket_01",
+  "fishing_status": "idle",
+  "start_time": 0,
+  "fish_basket": [],
+  "total_catch": 3,
+  "total_weight": 0.8807341949899019,
+  "exp": 30,
+  "level": 1
+}

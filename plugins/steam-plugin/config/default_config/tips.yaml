@@ -1,0 +1,61 @@
+# 若未配置则使用默认配置
+
+# 重复触发指令时的提示语
+repeatTips: "太快辣! 要受不了了🥵"
+
+# 正在查询的提示语
+loadingTips: "在查了...在查了..."
+
+# 未绑定steamId时的提示语
+noSteamIdTips: "还没有绑定steamId哦, 先绑定steamId吧"
+
+# 未绑定accessToken时的提示语
+noAccessTokenTips: "没有绑定accessToken哦, 先#steam扫码登录吧"
+
+# 重复绑定steamId时的提示语
+repeatBindTips: "这个steamId已经被绑定了, 要不要换一个?"
+
+# 未输入游戏appid时的提示语
+noAppidTips: "需要带上游戏的appid哦~"
+
+# 库存为空或未公开时的提示语
+inventoryEmptyTips: "获得成就: 没有给G胖一分钱"
+
+# 最近游玩为空或未公开时的提示语
+recentPlayEmptyTips: "最近电子阳痿了"
+
+# 愿望单为空或未公开时的提示语
+wishListEmptyTips: "愿望当场就实现了, 羡慕"
+
+# 在私聊中使用群聊限定的指令时的提示语
+privateUseTips: "请在群聊中使用此功能~"
+
+# 在群聊中使用私聊限定的指令时的提示语
+groupUseTips: "请在私聊中使用此功能~"
+
+# 没有开启对应推送功能时的提示语 {{type}} 对应的推送类型
+pushDisableTips: "主人没有开启{{type}}推送功能哦"
+
+# 用户尝试开关其他人的推送时提示语 {{type}} 对应的推送类型
+pushPermissionTips: "只能开启或关闭自己的{{type}}推送哦"
+
+# 开启或关闭推送的提示语
+# 可用的模版字符串
+# {{target}} 开启/关闭
+# {{type}} 推送类型
+# {{groupId}} 群号
+# {{userId}} 用户id
+# {{steamId}} 用户绑定的steamId
+pushChangeTips: "已{{target}}{{type}}推送{{steamId}}到{{groupId}}~"
+
+# 在推送黑名单中的提示语
+blackGroupTips: "本群在推送黑名单中, 请联系主人解除~"
+
+# 不在推送白名单中的提示语
+noWhiteGroupTips: "本群没有在推送白名单中, 请联系主人添加~"
+
+# 制作图片失败时的提示语
+makeImageFailedTips: "制作图片出错辣！再试一次吧"
+
+# 没有开启家庭库存推送时的提示语
+familyInventoryDisabledTips: "主人没有开启家庭库存推送功能哦"

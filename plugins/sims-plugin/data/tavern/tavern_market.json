@@ -1,0 +1,94 @@
+{
+  "supplies": [
+    {
+      "id": "beer_1",
+      "name": "普通啤酒",
+      "basePrice": 50,
+      "price": 50,
+      "stock": 100,
+      "type": "beer",
+      "desc": "最常见的啤酒，适合日常供应"
+    },
+    {
+      "id": "beer_2",
+      "name": "精酿啤酒",
+      "basePrice": 120,
+      "price": 120,
+      "stock": 80,
+      "type": "beer",
+      "desc": "口感独特的精酿啤酒，深受年轻人喜爱"
+    },
+    {
+      "id": "wine_1",
+      "name": "红葡萄酒",
+      "basePrice": 200,
+      "price": 200,
+      "stock": 60,
+      "type": "wine",
+      "desc": "经典红葡萄酒，适合配餐饮用"
+    },
+    {
+      "id": "wine_2",
+      "name": "白葡萄酒",
+      "basePrice": 180,
+      "price": 180,
+      "stock": 65,
+      "type": "wine",
+      "desc": "清爽的白葡萄酒，适合夏季饮用"
+    },
+    {
+      "id": "spirit_1",
+      "name": "威士忌",
+      "basePrice": 300,
+      "price": 300,
+      "stock": 40,
+      "type": "spirits",
+      "desc": "经典烈酒，适合品鉴"
+    },
+    {
+      "id": "spirit_2",
+      "name": "伏特加",
+      "basePrice": 250,
+      "price": 250,
+      "stock": 50,
+      "type": "spirits",
+      "desc": "纯净的烈酒，可调制多种鸡尾酒"
+    },
+    {
+      "id": "food_1",
+      "name": "小吃拼盘",
+      "basePrice": 80,
+      "price": 80,
+      "stock": 90,
+      "type": "food",
+      "desc": "多种小吃组合，适合配酒"
+    },
+    {
+      "id": "food_2",
+      "name": "坚果零食",
+      "basePrice": 60,
+      "price": 60,
+      "stock": 100,
+      "type": "food",
+      "desc": "各类坚果混合，是酒馆必备零食"
+    },
+    {
+      "id": "deco_1",
+      "name": "墙面装饰",
+      "basePrice": 500,
+      "price": 500,
+      "stock": 30,
+      "type": "decorations",
+      "desc": "提升酒馆氛围的墙面装饰"
+    },
+    {
+      "id": "deco_2",
+      "name": "桌椅套装",
+      "basePrice": 1200,
+      "price": 1200,
+      "stock": 20,
+      "type": "decorations",
+      "desc": "舒适的桌椅套装，提升顾客满意度"
+    }
+  ]
+}

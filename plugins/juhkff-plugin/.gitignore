@@ -1,0 +1,16 @@
+config/*
+!config/default
+data
+node_modules
+pnpm-lock.yaml
+.idea
+.vscode
+.git
+.DS_Store
+.gitattributes
+.gitmodules
+.gitkeep
+resources/help/output
+**/*.js.map
+**/*.out
+**/*.rdb

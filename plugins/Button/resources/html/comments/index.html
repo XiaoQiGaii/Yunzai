@@ -1,0 +1,103 @@
+<style>
+    body {
+        font-size: 18px;
+        color: #1e1f20;
+        transform: scale(1.4);
+        transform-origin: 0 0;
+        width: 600px;
+    }
+
+    .container {
+        width: 600px;
+        padding: 20px 15px 10px 15px;
+        background-size: contain;
+    }
+
+    .copyright {
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        padding-left: 10px;
+        text-shadow: 1px 1px 1px #000;
+        margin: 10px 0;
+    }
+
+    .copyright .version {
+        color: #d3bc8e;
+        display: inline-block;
+        padding: 0 3px;
+    }
+
+    body {
+        width: 600px;
+        background: rgb(253, 228, 146);
+        background-size: 100% auto;
+        padding-top: 24px;
+    }
+
+    .container {
+        background: rgb(253, 228, 146);
+        background-size: 100% auto;
+        width: 600px;
+    }
+
+    #cBody {
+        font-size: 24px;
+    }
+
+    .message {
+        display: flex;
+        margin-bottom: 10px;
+        padding-left: 0;
+        word-wrap: break-word;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 6px;
+        width: 460px;
+    }
+
+    .avatar img {
+        margin-left: 15px;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+    }
+
+    .text {
+        position: relative;
+        align-self: flex-start;
+        max-width: 100%;
+        margin-top: 6px;
+        border: 1px black solid;
+        border-radius: 12px;
+        padding: 12px;
+        background-color: rgba(255, 255, 255, 0.8);
+        line-height: 1.5;
+    }
+</style>
+
+<body style=transform:scale(1.2)>
+    <div class="container" id="container">
+        <div id="cBody">
+            {{each commentData item}}
+            <div class="message">
+                <div class="avatar">
+                    <img src="{{item.avatar}}" />
+                </div>
+                <div class="column">
+                    <div class="nickname">{{item.date}}</div>
+                    <div class="text">
+                        <div>{{item.text}}</div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+        <div class="copyright">Html By ws-plugin</div>
+    </div>
+</body>

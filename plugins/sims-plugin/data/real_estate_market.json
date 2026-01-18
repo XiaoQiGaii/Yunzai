@@ -1,0 +1,443 @@
+{
+  "properties": [
+    {
+      "id": "vq42bzbbn",
+      "name": "宁静郊区公寓",
+      "location": "郊区",
+      "type": "公寓",
+      "price": 203431,
+      "size": 78,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "临街",
+        "新小区"
+      ]
+    },
+    {
+      "id": "cft46yspb",
+      "name": "市中心幸福住宅",
+      "location": "市中心",
+      "type": "住宅",
+      "price": 5566550,
+      "size": 94,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "医院附近",
+        "电梯房",
+        "步行街",
+        "地暖"
+      ]
+    },
+    {
+      "id": "78gpt4a68",
+      "name": "舒适简约公寓",
+      "location": "住宅区",
+      "type": "公寓",
+      "price": 814935,
+      "size": 145,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "靠近地铁",
+        "拎包入住",
+        "花园洋房"
+      ]
+    },
+    {
+      "id": "2b3r14pml",
+      "name": "学区办公写字楼",
+      "location": "学区",
+      "type": "写字楼",
+      "price": 1339651,
+      "size": 131,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "学校附近",
+        "商圈中心",
+        "安静社区",
+        "高楼层"
+      ]
+    },
+    {
+      "id": "zboeh4432",
+      "name": "繁华市中心写字楼",
+      "location": "市中心",
+      "type": "写字楼",
+      "price": 3504164,
+      "size": 89,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "靠近地铁",
+        "精装修",
+        "成熟社区"
+      ]
+    },
+    {
+      "id": "0gmon8my3",
+      "name": "经济家园住宅",
+      "location": "商业区",
+      "type": "住宅",
+      "price": 564413,
+      "size": 101,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "精装修",
+        "靠近地铁",
+        "步行街"
+      ]
+    },
+    {
+      "id": "mfh7tj28z",
+      "name": "郊区专业写字楼",
+      "location": "郊区",
+      "type": "写字楼",
+      "price": 233350,
+      "size": 248,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "靠近地铁",
+        "学校附近",
+        "新小区"
+      ]
+    },
+    {
+      "id": "iivl7y7gy",
+      "name": "金融商业区商铺",
+      "location": "商业区",
+      "type": "商铺",
+      "price": 763327,
+      "size": 157,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "河景房",
+        "电梯房",
+        "低密度",
+        "成熟社区"
+      ]
+    },
+    {
+      "id": "gu9fafvpm",
+      "name": "郊区专业写字楼",
+      "location": "郊区",
+      "type": "写字楼",
+      "price": 116169,
+      "size": 147,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "临近公园",
+        "安静社区",
+        "步行街"
+      ]
+    },
+    {
+      "id": "vh6rgjnd1",
+      "name": "商业区现代公寓",
+      "location": "商业区",
+      "type": "公寓",
+      "price": 462533,
+      "size": 118,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "靠近地铁",
+        "低密度",
+        "商圈中心"
+      ]
+    },
+    {
+      "id": "jgzk22h7a",
+      "name": "商业区时尚公寓",
+      "location": "商业区",
+      "type": "公寓",
+      "price": 550541,
+      "size": 149,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "低密度",
+        "花园洋房",
+        "地暖",
+        "成熟社区"
+      ]
+    },
+    {
+      "id": "rw495vkr7",
+      "name": "商业区旺铺商铺",
+      "location": "商业区",
+      "type": "商铺",
+      "price": 1613349,
+      "size": 245,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "河景房",
+        "学校附近",
+        "安静社区"
+      ]
+    },
+    {
+      "id": "oeztkq4ly",
+      "name": "田园郊区商铺",
+      "location": "郊区",
+      "type": "商铺",
+      "price": 299727,
+      "size": 164,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "南北通透",
+        "学校附近",
+        "新小区",
+        "精装修"
+      ]
+    },
+    {
+      "id": "mw5m00q3j",
+      "name": "商业区热门商铺",
+      "location": "商业区",
+      "type": "商铺",
+      "price": 803324,
+      "size": 119,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "河景房",
+        "临近公园"
+      ]
+    },
+    {
+      "id": "y17ry1pm8",
+      "name": "人文学区商铺",
+      "location": "学区",
+      "type": "商铺",
+      "price": 1422181,
+      "size": 248,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "步行街",
+        "河景房"
+      ]
+    },
+    {
+      "id": "zlvppetmy",
+      "name": "家庭幽静别墅",
+      "location": "住宅区",
+      "type": "别墅",
+      "price": 388686,
+      "size": 85,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "拎包入住",
+        "步行街",
+        "复式结构",
+        "南北通透"
+      ]
+    },
+    {
+      "id": "dm1xq0rgz",
+      "name": "商务热门商铺",
+      "location": "商业区",
+      "type": "商铺",
+      "price": 551569,
+      "size": 80,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "临街",
+        "复式结构",
+        "地暖"
+      ]
+    },
+    {
+      "id": "312e3x189",
+      "name": "市中心豪华别墅",
+      "location": "市中心",
+      "type": "别墅",
+      "price": 714522,
+      "size": 94,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "河景房",
+        "新小区",
+        "南北通透"
+      ]
+    },
+    {
+      "id": "xi86eboum",
+      "name": "高端市中心公寓",
+      "location": "市中心",
+      "type": "公寓",
+      "price": 879569,
+      "size": 206,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "靠近地铁",
+        "低密度"
+      ]
+    },
+    {
+      "id": "pnnw7n919",
+      "name": "商务黄金商铺",
+      "location": "商业区",
+      "type": "商铺",
+      "price": 439266,
+      "size": 82,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "商圈中心",
+        "地暖",
+        "医院附近",
+        "复式结构"
+      ]
+    },
+    {
+      "id": "nxm3eqj7p",
+      "name": "学区时尚公寓",
+      "location": "学区",
+      "type": "公寓",
+      "price": 487245,
+      "size": 232,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "安静社区",
+        "复式结构",
+        "电梯房",
+        "商圈中心"
+      ]
+    },
+    {
+      "id": "26o8fzwr2",
+      "name": "温馨住宅区住宅",
+      "location": "住宅区",
+      "type": "住宅",
+      "price": 249671,
+      "size": 190,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "拎包入住",
+        "步行街",
+        "新小区",
+        "靠近地铁"
+      ]
+    },
+    {
+      "id": "1axaimshg",
+      "name": "舒适住宅区别墅",
+      "location": "住宅区",
+      "type": "别墅",
+      "price": 372082,
+      "size": 124,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "南北通透",
+        "安静社区"
+      ]
+    },
+    {
+      "id": "0ps454j2p",
+      "name": "商业区理想住宅",
+      "location": "商业区",
+      "type": "住宅",
+      "price": 288839,
+      "size": 188,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "花园洋房",
+        "高楼层"
+      ]
+    },
+    {
+      "id": "dq8gq8h57",
+      "name": "自然商务写字楼",
+      "location": "郊区",
+      "type": "写字楼",
+      "price": 66895,
+      "size": 60,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "低密度",
+        "医院附近",
+        "临街"
+      ]
+    },
+    {
+      "id": "v4sohb5wd",
+      "name": "知识热门商铺",
+      "location": "学区",
+      "type": "商铺",
+      "price": 343070,
+      "size": 140,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "成熟社区",
+        "临街",
+        "新小区"
+      ]
+    },
+    {
+      "id": "hpiec9ozm",
+      "name": "经济舒适住宅",
+      "location": "商业区",
+      "type": "住宅",
+      "price": 203260,
+      "size": 112,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "高楼层",
+        "南北通透",
+        "临街"
+      ]
+    },
+    {
+      "id": "963bcieb5",
+      "name": "知识学区写字楼",
+      "location": "学区",
+      "type": "写字楼",
+      "price": 388821,
+      "size": 168,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "电梯房",
+        "临近公园",
+        "地暖",
+        "低密度"
+      ]
+    },
+    {
+      "id": "54u6ypvjd",
+      "name": "家庭精致公寓",
+      "location": "住宅区",
+      "type": "公寓",
+      "price": 165495,
+      "size": 86,
+      "condition": 100,
+      "renovationLevel": 0,
+      "features": [
+        "临街",
+        "河景房",
+        "低密度"
+      ]
+    }
+  ]
+}

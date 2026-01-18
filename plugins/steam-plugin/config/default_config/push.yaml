@@ -1,0 +1,118 @@
+# 游玩推送总开关
+enable: true
+
+# 开始游戏后是否推送
+playStart: true
+
+# 游玩结束后是否推送
+playEnd: true
+
+# 状态推送总开关
+stateChange: true
+
+# 上线是否推送
+stateOnline: true
+
+# 下线是否推送
+stateOffline: true
+
+# 设置每次检查时请求的api
+
+# 1: ISteamUserOAuth/GetUserSummaries/v2
+# 此接口需要access_token 429情况未知
+# 和2接口参数返回值一样, 但是使用access_token鉴权
+# 需要有人扫码登录获取access_token后才可以调用
+
+# 2: ISteamUser/GetPlayerSummaries/v2
+# 此接口会有429限制, 经测试 40+steamid 3min 会出现 steamid越多越容易出现
+# 429 是根据apiKey进行限制, 可配置多个apiKey
+
+# 3: IPlayerService/GetPlayerLinkDetails/v1
+# 429情况暂时未知, 但是这个接口只会返回正在玩的appid不会返回name, 所以需要再请求一个接口获得游戏名
+
+# 4: 随机
+
+# tips: 依次进行获取 如果选择1出现429则尝试使用2 2出现429则尝试使用3 3出现429则停止尝试
+# 1如果没有access_token则跳过
+
+# more api please wait or issue/pr...
+pushApi: 2
+
+# 推送模式
+# 1: 文字推送 一条消息就是一个群友 xxx正在玩xxx
+# 2: 图片推送 一张图片展示所有群友 会展示游戏的header图片
+# 3: 仿steam风格的播报图片 只会展示头像和游戏名 不会展示游戏的header图片和时间 
+pushMode: 1
+
+# Steam Web API 使用条款
+# https://steamcommunity.com/dev/apiterms
+# 其中说明: 每天对 Steam Web API 的调用次数限制为十万 (100,000) 次
+# 可以是cron表达式 也可以是数字 单位: 分钟
+time: 5
+
+# 是否开启家庭库存增加推送
+# 请注意: 
+# 1. 不能批量查询
+# 2. 需要绑定先扫码登录获取access_token
+familyInventotyAdd: false
+
+# 家庭库存检查间隔
+# 可以是cron表达式 也可以是数字 单位: 分钟
+familyInventotyTime: 0 0 12 * * ?
+
+# 是否开启降价推送
+# 可选 0: 关闭降价推送 1: 扫码绑定后可开启降价推送 2: 所有用户都可开启降价推送
+priceChange: 0
+
+# 降价推送方式
+# 1: 仅降价期间第一次查询推送 2: 每次检查都推送
+priceChangeType: 1
+
+# 降价检查间隔
+# 可以是cron表达式 也可以是数字 单位: 分钟
+priceChangeTime: 0 5 12 * * ?
+
+# 是否开启用户库存增加推送
+# 可选 0: 关闭用户库存推送 1: 扫码绑定后可开启库存推送 2: 所有用户都可开启库存推送
+# 请注意:
+# 1. 不能批量查询
+# 2. 因为接口没有返回入库时间, 所以会缓存用户的库存
+userInventoryChange: 0
+
+# 用户库存检查间隔
+# 可以是cron表达式 也可以是数字 单位: 分钟
+userInventoryTime: 0 0 12 * * ?
+
+# 是否开启用户愿望单增加推送
+# 可选 0: 关闭用户愿望单推送 1: 扫码绑定后可开启愿望单推送 2: 所有用户都可开启愿望单推送
+# 请注意:
+# 1. 不能批量查询
+userWishlistChange: 0
+
+# 用户愿望单检查间隔
+# 可以是cron表达式 也可以是数字 单位: 分钟
+userWishlistTime: 0 0 12 * * ?
+
+# 是否默认开启游玩推送和状态推送 即绑定steamId之后不需要发 #steam开启游玩推送 和 #steam开启状态推送 指令
+defaultPush: true
+
+# 是否随机Bot进行推送, 有多个Bot在同一群群时随机选择一个在线的Bot推送状态 (仅限TRSS)
+randomBot: false
+
+# 群统计是否过滤掉黑名单群和白名单群
+# 如果关闭则每次会获取忽略黑白名单的所有群 但是不会推送 仅统计
+statusFilterGroup: true
+
+# 推送的Bot黑名单, 不开启推送的Bot将不会被推送, 比如腾讯QQBot限制主动消息
+blackBotList:
+  - 3889000138
+
+# 推送的Bot白名单, 只推送白名单中的Bot
+whiteBotList: []
+
+# 推送黑名单群
+blackGroupList:
+  - 741577559
+
+# 推送白名单群
+whiteGroupList: []

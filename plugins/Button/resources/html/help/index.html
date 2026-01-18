@@ -1,0 +1,50 @@
+<style>
+    body {
+        width: 420px;
+        height: 220px;
+    }
+
+    .menu {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 400px;
+    }
+
+    .menu-item {
+        margin-bottom: 5px;
+    }
+
+    .instruction {
+        font-weight: bold;
+    }
+
+    .description {
+        color: #666;
+    }
+</style>
+
+<body>
+    <div class="menu">
+        <div class="menu-item">
+            <div class="instruction">指令: #来个按钮</div>
+            <div class="description">给你一个按钮，选择按下或不按下</div>
+        </div>
+        <div class="menu-item">
+            <div class="instruction">指令: #查看评论+序号</div>
+            <div class="description">如#查看评论1，查看按钮1的评论</div>
+        </div>
+        <div class="menu-item">
+            <div class="instruction">指令: #评论按钮+序号+*+内容</div>
+            <div class="description">如#评论按钮1*hello，评论按钮1</div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="menu-item">
+            <div class="instruction">指令: #更新按钮库</div>
+            <div class="description">更新云端新增按钮数据至本地，仅Bot主人可用</div>
+        </div>
+    </div>
+</body>

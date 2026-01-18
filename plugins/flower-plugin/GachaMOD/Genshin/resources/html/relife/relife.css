@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'tttgbnumber';
+    src: url("../../../../../resources/font/tttgbnumber.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "YS";
+    src: url("../../../../../resources/font/HYWH-65W.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NZBZ";
+    src: url("../../../../../resources/font/NZBZ.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "SYST";
+    src: url("../../../../../resources/font/SHCN-Bold.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    transform-origin: 0 0;
+    position: absolute;
+}
+
+.container {
+    width: 1630px;
+    height: 777px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+}
+
+
+.info-bg{
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,100), rgba(255,255,255,100), rgba(255,255,255,0));
+    font-size: 65px;
+    text-align:center;
+    position: fixed;
+    width: 650px;
+    left: 88px;
+}
+
+.common-text{
+    -webkit-text-stroke: 1px #FFFFFF;
+    top: 8px;
+    left: 85px;
+}
+
+
+.info-user {
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.info-user .info-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.info-user .info-name {
+    font-size: 65px;
+    margin-left: 40px;
+    font-family: NZBZ, YS, sans-serif;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.info-user .info-id {
+    font-size: 48px;
+    margin-left: 40px;
+    font-family: NZBZ, YS, sans-serif;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.info-title{
+    top: 220px;
+    font-family: NZBZ, YS, sans-serif;
+}
+
+
+.info-hang1{
+    top: 440px;
+    font-size: 38px;
+    font-family: SYST, sans-serif;
+}
+.info-hang2{
+    top: 520px;
+    font-size: 38px;
+    font-family: SYST, sans-serif;
+}
+
+.info-hang3{
+    top: 600px;
+    font-size: 38px;
+    font-family: SYST, sans-serif;
+}
+
+.name {
+    font-size: 100px;
+    top: 380px;
+    left: 173px;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    color: rgb(255 255 255 / 25%);
+    font-size: 24px;
+    font-family: tttgbnumber, serif;
+    z-index: 1000;
+}
+
+.character {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: translateX(25%);
+}
+
+.character img {
+    height: 880px;
+}

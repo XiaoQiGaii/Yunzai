@@ -1,0 +1,56 @@
+# 图片渲染精度
+renderScale: 130
+
+# 生成图片方式
+# 1: puppeteer
+# 2: canvas (仅支持部分功能)
+renderType: 1
+
+# 截图时数量达到多少时隐藏剩余项目
+# 比如库存有几千个游戏，截图时只截取游玩最多的前99个，那么后面的游戏就隐藏了
+hiddenLength: 99
+
+# 截图时每行显示的最大数量
+itemLength: 3
+
+# 是否显示Steam头像 可能会有18+的头像
+steamAvatar: true
+
+# steam状态 发送消息模式
+# 1: 文字
+# 2: 仿steam风格的迷你卡片
+# 3: 原汁原味的steam风格的迷你卡片(需要社区反代或通用反代)
+infoMode: 2
+
+
+# steam库存 展示的模版
+# 1: 通用模版 会显示游戏名等信息
+# 2: 图片模版 只会显示游戏封面
+inventoryMode: 1
+
+# 是否开启日志
+log: true
+
+# 游戏推荐数量
+rollGameCount: 3
+
+# 统计数据的显示数量 比如群统计
+statsCount: 10
+
+# 插件优先级 数值越小优先级越高
+priority: 5
+
+# 是否必须携带#号开头才会触发命令 重启后生效
+requireHashTag: false
+
+# 是否监听文件变化 如果不监听则每次更改文件需要重启
+# 改动此配置需重启后生效
+watchFile: true
+
+# 默认地区代码
+# 部分游戏有锁区中国地区会不可见
+# 排行榜,搜索等会使用这个地区的数据
+# 以及游戏金额等
+# 可通过下面这个接口查看部分地区代码
+# https://api.steampowered.com/IStoreTopSellersService/GetCountryList/v1/?language=schinese
+countryCode: CN

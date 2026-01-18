@@ -1,0 +1,676 @@
+﻿@use 'svg-circle';
+@use 'test';
+
+// 通用混合器
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin box-title {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-top: 5px;
+    border-bottom: 2px solid #b4b4b6ac;
+}
+
+@mixin glass-effect {
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 52, 0.5), inset 3px 3px 10px 0px rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+// 通用样式
+%text-overflow-mission {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// 变量
+:root {
+    --high-color: #d73403;
+    --medium-color: #ffa500;
+    --low-color: #84A0DF;
+    --avatar-main-color: #fff1eb;
+    --avatar-similar-color1: #fff1eb;
+    --avatar-similar-color2: #ace0f9;
+    --purple: #B4A0D8;
+    --orange: #e0be92;
+    --blue: #aad5e6;
+}
+
+// 基础布局
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #000;
+    // font-weight: 700;
+}
+
+.container {
+    background: {
+        image: url('../img/default_bg.jpg');
+        color: #e9e9e9;
+        position: center top;
+        repeat: no-repeat;
+        size: cover;
+    }
+
+    width: 650px;
+
+    &>.box:nth-child(2) {
+        margin-top: 0;
+    }
+
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+@mixin box-bg-style {
+    border-radius: 18px;
+
+    @include glass-effect;
+}
+
+// 通用盒子样式
+.box {
+    margin: 20px 10px;
+    position: relative;
+
+    &:not(.clear-style) {
+        @include box-bg-style;
+        padding: 10px;
+    }
+
+    break-inside: avoid;
+    display: block;
+
+    .time {
+        position: absolute;
+        right: 20px;
+        top: -30px;
+        font-size: 11px;
+        color: #0e0e0e;
+        text-shadow: 1px 1px 2px #fff;
+        font-weight: 700;
+    }
+}
+
+// 进程负载盒子
+.box[data-boxInfo="进程负载"] {
+    .title {
+        @include box-title;
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 7px;
+        }
+    }
+
+    .info {
+        .title {
+            margin-bottom: 10px;
+        }
+
+        .list {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 20px;
+            font-size: 17px;
+            gap: 20px;
+            text-align: center;
+
+            div {
+                border: 1px solid rgba(180, 180, 182, 0.67);
+                border-radius: 5px;
+                padding: 5px 10px;
+                color: #4f5255;
+                background-color: rgba(244, 244, 245, 0.58);
+                flex: 1;
+            }
+        }
+    }
+
+    .process {
+        .title {
+            margin: 10px 0;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin: 0px 10px;
+
+            .row {
+                display: flex;
+            }
+
+            .header-row {
+                font-size: 17px;
+                color: #494d53;
+
+                .cell[data-sort="true"] {
+                    position: relative;
+
+                    &::after {
+                        content: '▼';
+                        position: absolute;
+                        margin-left: 5px;
+                        color: #494d53;
+                    }
+                }
+            }
+
+            .cell {
+                flex: 1;
+                padding: 5px;
+                text-align: left;
+                @extend %text-overflow-mission;
+
+                &:first-child {
+                    flex: 2;
+                }
+
+                &:nth-child(3),
+                &:nth-child(4) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+// Redis盒子
+.box[data-boxInfo="redis"] {
+    .title {
+        @include box-title;
+
+        .icon {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+        }
+    }
+
+    .info {
+        display: grid;
+        gap: 10px 20px;
+        grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+        // grid-template-columns: repeat(3, 1fr);
+        white-space: nowrap;
+
+        .redisBox {
+            flex: 1;
+
+            .data {
+                padding: 10px;
+                padding-bottom: 5px;
+
+                .item {
+                    background-color: #f4f4f594;
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 13px;
+                    border-radius: 5px;
+                    border: 1px solid #b4b4b6ac;
+                    color: #4f5255;
+
+                    .number {
+                        color: #46971d;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    .keyspace {
+        margin-top: 10px;
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            font-size: 12px;
+            margin: 5px 10px;
+
+            .row {
+                display: flex;
+                flex: 1;
+            }
+
+            .header-row {
+                font-size: 13px;
+                color: #494d53;
+            }
+
+            .cell {
+                flex: 1;
+                padding: 5px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+// Bot信息样式
+.botInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .avatar-box {
+        @include flex-center;
+        flex-direction: column;
+        margin-right: 5px;
+
+        .avatar {
+            position: relative;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 0 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                z-index: -1;
+                margin: -5px;
+                border-radius: 50%;
+                box-shadow: -2px 2px 5px 1px rgba(8, 8, 8, 0.5);
+            }
+        }
+
+        .info {
+            @include flex-center;
+            margin-top: 10px;
+
+            .onlineStatus {
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+                @include flex-center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .platform {
+                line-height: 15px;
+                font-size: 11px;
+            }
+        }
+    }
+
+    // Bot信息头部样式
+    .header {
+        font-size: 14px;
+        width: 100%;
+        color: #000;
+
+        hr {
+            margin: 5px 0px;
+        }
+
+        p {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 10px;
+
+            span {
+                border-radius: 5px;
+                box-shadow: -2px 2px 3px rgba(8, 8, 8, 0.5);
+                padding: 0px 5px;
+                margin-right: 8px;
+                white-space: nowrap;
+
+                img {
+                    width: 14px;
+                    height: 14px;
+                    vertical-align: -2px
+                }
+            }
+
+            &:nth-child(3) {
+                span:nth-child(1) {
+                    background: #d799de;
+                }
+
+                span:nth-child(2) {
+                    background: #CBC7C8;
+                }
+            }
+
+            &:nth-child(4) {
+
+                span:nth-child(1),
+                span:nth-child(4) {
+                    background: var(--purple);
+                }
+
+                span:nth-child(2),
+                span:nth-child(5) {
+                    background: var(--orange);
+                }
+
+                span:nth-child(3),
+                span:nth-child(6) {
+                    background: var(--blue);
+                }
+            }
+        }
+
+        table {
+            background: #67abdb;
+            border-radius: 5px;
+            box-shadow: #000 1px 1px 3px;
+            margin: auto;
+            margin-top: 5px;
+
+            td {
+                line-height: 14px;
+
+                &.dyeing {
+                    padding-left: 5px;
+                    text-align: center;
+
+                    &:not(:last-child) {
+                        border-right: 2px solid #2f4f4f;
+                        padding-right: 10px;
+                    }
+                }
+
+                &:nth-child(odd):not(:first-child) {
+                    padding-left: 10px
+                }
+            }
+        }
+
+        h1 {
+            @extend %text-overflow-mission;
+            display: inline-block;
+            color: #000;
+        }
+    }
+}
+
+// 内存和硬盘样式
+.memory {
+    li {
+        margin: 10px;
+        display: flex;
+    }
+
+    hr {
+        margin-bottom: 10px;
+    }
+
+    .progress {
+        flex: 1;
+        height: 25px;
+        background: #c1c1c1;
+        margin: 0 5px;
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+        border: 1px solid #929292;
+
+        .current {
+            background: #90ee90;
+            height: 25px;
+            border-radius: inherit;
+        }
+
+        .word {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            white-space: nowrap;
+        }
+    }
+}
+
+.HardDisk_li {
+
+    .mount {
+        @extend %text-overflow-mission;
+        min-width: 15px;
+        max-width: 3em;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .percentage {
+        min-width: 2em;
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+
+.speed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 25px;
+    padding: 0px 10px;
+    font-size: 16px;
+    line-height: 1;
+
+    p {
+        @extend %text-overflow-mission;
+        margin: 0;
+
+        &:first-child {
+            flex: 0 0 32%;
+            max-width: 32%;
+        }
+
+        &:last-child {
+            flex: 1 1 68%;
+            text-align: right;
+            font-weight: 700;
+            color: #333;
+        }
+
+        img {
+            vertical-align: middle;
+            height: 14px;
+            margin-right: 6px;
+        }
+    }
+}
+
+.copyright.abs {
+    position: absolute;
+    left: 50%;
+    bottom: 10px; // 距离底部10px，可根据需要调整
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.box[data-boxInfo="其他"] {
+    --border-color: rgba(68, 68, 68, 0.67);
+    --interval: 10px;
+
+    .title {
+        @include box-title;
+        margin-bottom: calc(var(--interval) + 5px);
+        border-bottom: 1px solid var(--border-color);
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 7px;
+        }
+    }
+
+    .speed {
+        margin: 0px 10px;
+        padding: 0px 5px;
+        margin-bottom: var(--interval);
+        padding-bottom: var(--interval);
+        border-bottom: 1px dashed var(--border-color);
+        font-size: 16px;
+
+        &:last-child {
+            border-bottom: none;
+            margin-bottom: 0px
+        }
+    }
+}
+
+.box[data-boxInfo="网络"] {
+
+
+    .title {
+        @include box-title;
+        margin-bottom: 10px;
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 7px;
+        }
+    }
+
+
+    .networkInfo {
+
+        .chartBox,
+        .data>div {
+            border: 1px solid rgba(180, 180, 182, 0.67);
+            background-color: rgba(244, 244, 245, 0.58);
+        }
+
+        .chartBox {
+            padding: 5px 10px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .data {
+            display: grid;
+            margin: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            white-space: nowrap;
+
+            >div {
+                border-radius: 5px;
+                padding: 7px;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 10px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .info {
+                    font-size: 13px;
+
+                    .text {
+                        color: #696d70;
+                        margin-bottom: 3px;
+                    }
+
+                    .networkData {
+                        font-size: 15px;
+                        font-weight: 700;
+
+                        .unit {
+                            color: #696d70;
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+    .psTest {
+        .data {
+            display: flex;
+            flex-direction: column;
+            font-size: 17px;
+            margin: 0px 20px;
+            margin-bottom: 10px;
+
+
+            .row {
+                display: flex;
+                flex: 1;
+            }
+
+            .header-row {
+                font-size: 18px;
+                color: #494d53;
+            }
+
+            .cell {
+                flex: 1;
+                padding: 5px;
+                text-align: center;
+
+                &:first-child {
+                    flex: 3;
+                    text-align: left;
+                }
+
+            }
+        }
+    }
+}
+
+/* 新增：fastFetch 模块内部条目样式（仅新增，不改动盒子样式） */
+.box[data-boxInfo="FastFetch"] {
+    .speed {
+        padding: 6px 10px;
+        /* 使条目更紧凑 */
+        min-height: 28px;
+        font-size: 13px;
+
+        /* 在条目较多时，减少视觉冗余 */
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.title,
+.header-row {
+    font-weight: 700;
+}

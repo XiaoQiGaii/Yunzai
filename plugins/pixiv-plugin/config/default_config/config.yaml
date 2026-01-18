@@ -1,0 +1,14 @@
+# 代理地址,http或socks5,JM代理在JM.yaml
+proxy: ""
+# pixiv的refreshToken
+refreshToken: ""
+# Pixiv的Cookie,填写时不需要引号
+cookie: ""
+
+#* 翻译相关配置
+# 翻译API
+translateAPI: "youdao"
+# 有道翻译
+youdao:
+  appKey: ""
+  appSecret: ""

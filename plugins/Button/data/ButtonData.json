@@ -1,0 +1,614 @@
+[
+    {
+        "index": 1,
+        "get": "你可以让任何你爱的人起死回生",
+        "sideEffect": "然而你爱的另一个人会死去",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 2,
+        "get": "无限的金钱和权力",
+        "sideEffect": "你永远失去了双腿",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 3,
+        "get": "你是有史以来最伟大的艺术家，你的作品在你死后很长一段时间都会被珍惜",
+        "sideEffect": "没人能在你的一生中认出你的天才",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 4,
+        "get": "你可以用你的思想移动东西",
+        "sideEffect": "你不能移动你的身体",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 5,
+        "get": "你可以在脑海中访问视频软件，随时观看你想看的东西",
+        "sideEffect": "你再也不能吃垃圾食品了",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 6,
+        "get": "获得治愈他人失明的能力",
+        "sideEffect": "自己失明",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 7,
+        "get": "你将获得无限的财富",
+        "sideEffect": "但你只能把钱花在别人身上",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 8,
+        "get": "你获得了治愈他人的能力",
+        "sideEffect": "你治愈的任何伤害/问题/疾病都会转移到你自己的身体上",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 9,
+        "get": "你会得到一把功能齐全的传送抢",
+        "sideEffect": "你再也不能吃蛋糕了",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 10,
+        "get": "你将获得你所选择的超级英雄所有力量/能力",
+        "sideEffect": "你和你所爱和关心的每一个人都面临着严重的危险和死亡的风险",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 11,
+        "get": "你成为世界上最有名的人，被数百万人爱戴，没有人讨厌你，你又性感又有钱",
+        "sideEffect": "每个你现在爱的人，甚至是稍微喜欢的人，都会在你面前慢慢死去",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 12,
+        "get": "你将获得随时随地传送的能力",
+        "sideEffect": "传送到哪里是随机的",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 13,
+        "get": "你会有一张银行卡，可以让你无限量取款",
+        "sideEffect": "它的钱来自穷人",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 14,
+        "get": "你的每一次付出都是最好的",
+        "sideEffect": "你每次这么做都会损失一个智商点",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 15,
+        "get": "经过任何长时间的睡眠后，您都会感到神清气爽，休息良好，即使只是一秒钟",
+        "sideEffect": "唯一能唤醒你的是，如果有人尽可能用力地打你的脸。在有人醒来之前，你不会醒来",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 16,
+        "get": "你可以与世界上任何人发生X管系",
+        "sideEffect": "身体将拥有您父母之一的思想和声音",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 17,
+        "get": "你有能力随时随地改变性别",
+        "sideEffect": "这个过程非常痛苦，每次使用后你都会失去行动能力几分钟",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 18,
+        "get": "你将成为地球的统治者，人人都爱你",
+        "sideEffect": "你将永远体会不到♥快感",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 19,
+        "get": "你得到100亿美元，没有条件说明你如何使用它，它不能免费捐赠给任何人或事业",
+        "sideEffect": "如果你不能在 3 天内花掉全部 100 亿，你的家谱将从最年轻到最老开始消亡，直到你花光所有钱",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 20,
+        "get": "你会变得举世闻名",
+        "sideEffect": "你会对你的生活以及一切感到盲目",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 21,
+        "get": "你进入了一个平行宇宙，对你来说，一切都是完美的，你生活在一个乌托邦的世界里，每个人都爱你，你得到了你一直想要的一切",
+        "sideEffect": "但是在在现实中，你其实被一只巨大的狼蛛茧所茧化，狼蛛是优势物种。虽然你没有意识到这一点，但你总是有一种迫在眉睫的恐惧，认为有些事情真的不对劲，但永远无法真正把你的手指放在上面",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 22,
+        "get": "你私不掉",
+        "sideEffect": "不能自私",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 23,
+        "get": "你在便利店总是能买到免费的口香糖",
+        "sideEffect": "有一只粉红色的小象一直跟着你，没有人能看到他，有时他还会发出声音",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 24,
+        "get": "你可以完美地说世界各地的任何口音",
+        "sideEffect": "不管怎样，你的口齿总是很不清",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 25,
+        "get": "你得到一千万英镑",
+        "sideEffect": "你爱的人死了",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 26,
+        "get": "你能看到未来",
+        "sideEffect": "你看不到自己的",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 27,
+        "get": "你的任何愿望都可以实现",
+        "sideEffect": "没有人会找到治愈癌症的方法，包括你的愿望",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 28,
+        "get": "你不需要工作就能得到你想要的一切",
+        "sideEffect": "你的余生将在“里面”度过",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 29,
+        "get": "你会成为任何在线游戏中的佼佼者",
+        "sideEffect": "你偶尔会延迟，甚至高达1000+ping",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 30,
+        "get": "你可以重新开始生活",
+        "sideEffect": "你会永远想起你的过去",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 31,
+        "get": "你穿什么都好看",
+        "sideEffect": "所有的衣服都让你痒",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 32,
+        "get": "你在25岁时找到了一生的挚爱，并幸福地结婚85年",
+        "sideEffect": "你有遗传病，这意味着你永远不会有糕炒",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 33,
+        "get": "你会得到治愈一切创伤的力量",
+        "sideEffect": "治疗自己会导致你的伤害被施加到附近的人身上，而治疗别人会导致你受到他们的伤害",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 34,
+        "get": "你可以结束世界上所有的痛苦，所有的压迫，从本质上创造一个世界和平，拯救数十亿人的生命",
+        "sideEffect": "你必须选择一个你在这个世界上最亲近的人来做祭品",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 35,
+        "get": "你会没有压力，也会富有",
+        "sideEffect": "你的两位亲人会死去，你每年会生病两次",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 36,
+        "get": "获得飞翔的能力",
+        "sideEffect": "这样做的时候会放个屁",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 37,
+        "get": "你以亿万富翁的身份生活了一年",
+        "sideEffect": "在你之后的余生里，你再也不会过上奢侈的生活",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 38,
+        "get": "你得到一千万美元",
+        "sideEffect": "花钱会伤害你的身体;你花的越多，伤害就越大",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 39,
+        "get": "你可以买任何你想要的东西",
+        "sideEffect": "只对别人有用",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 40,
+        "get": "你不再需要食物和水来生存",
+        "sideEffect": "食物和水在你嘴里变成沙子，你不再有味蕾",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 41,
+        "get": "你可以收回你说过的话",
+        "sideEffect": "但你必须过没有社交的生活",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 42,
+        "get": "你们有世界上最快的网速",
+        "sideEffect": "你唯一能拥有的技术就是97年的Windows桌面",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 43,
+        "get": "你可以让任何你想要的人喜欢你，只要和他们说话",
+        "sideEffect": "你每说一个字都要深吸一口气",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 44,
+        "get": "你再也不用工作了，你会永远有钱。你可以有空闲时间，你的朋友也可以",
+        "sideEffect": "如果你想生存下去，你必须执行一个太空计划，致力于阻止一个巨大的d20在撞击地球的轨道上摧毁地球，而这样做将花费你所有的生命，因为d20的轨道不断变化",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 45,
+        "get": "你会很富有",
+        "sideEffect": "你得了一种不治之症，他会出乎意料的KILL你",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 46,
+        "get": "你想跟谁上C就跟谁上C",
+        "sideEffect": "每发生一次X行为，你的寿命就缩减50%",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 47,
+        "get": "无论你和4个你最喜欢的名人住在一起",
+        "sideEffect": "你什么时候便便，马桶里都有一个麦克风和一个录像机，它会干扰任何电视信号，这样整个房子里的每个人都能看到和听到",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 48,
+        "get": "你会成为最好的作家，能够用任何语言写作",
+        "sideEffect": "你不能说话",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 49,
+        "get": "你可以预测未来",
+        "sideEffect": "没人相信你",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 50,
+        "get": "你是一个美丽、性感、妖娆的女人，你也是丘比特;你让人们坠入爱河",
+        "sideEffect": "你永远不会爱上自己",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 51,
+        "get": "你将成为美国有史以来最伟大的总统",
+        "sideEffect": "你将没有时间陪伴朋友、家人、爱好和假期",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 52,
+        "get": "你可以去你选择的幻想世界度过你的余生",
+        "sideEffect": "你被困在那里，每天都在重复",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 53,
+        "get": "异性觉得你很有吸引力",
+        "sideEffect": "你是同性恋",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 54,
+        "get": "你可以做/得到任何你想要的，你永远不会死，除非你想",
+        "sideEffect": "你必须按下接下来的5个按钮，只有糟糕的事情才会发生",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 55,
+        "get": "在你什么的最后，你有一个可以实现的愿望。甚至是无限的愿望",
+        "sideEffect": "你必须和每一个说“墨西哥卷饼”的人做❤️。世界上每个人都知道",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 56,
+        "get": "你想睡多久就睡多久，直到永远",
+        "sideEffect": "醒来时你永远不会觉得休息好了",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 57,
+        "get": "这个世界正处于危机之中，而你是唯一知道并有能力结束危机的人",
+        "sideEffect": "结束这一切的唯一方法就是让你最在乎的人死去，你带着愧疚度过余生而世界照常运转",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 58,
+        "get": "你每周会出现一种影响你日常生活的伤病",
+        "sideEffect": "人们会原谅你做的任何事",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 59,
+        "get": "你长得很漂亮",
+        "sideEffect": "你最大的敌人是你余生的老板",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 60,
+        "get": "你可以瞬间传送",
+        "sideEffect": "代价是变成男娘",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 61,
+        "get": "你不学习就能通过考试",
+        "sideEffect": "你会一辈子做噩梦",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 62,
+        "get": "你的口袋里总是有足够的钱去买你想要的任何东西",
+        "sideEffect": "你永远也找不到真爱",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 63,
+        "get": "你会成为地球上最聪明的人",
+        "sideEffect": "没人会相信你说的话",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 64,
+        "get": "你不会自然变老",
+        "sideEffect": "每当你想到变老，你就老了一个星期。不过，你不能每天衰老超过一周",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 65,
+        "get": "你跑得很快",
+        "sideEffect": "当你不跑步的时候，你是超级慢的",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 66,
+        "get": "你可以成为你想要的种族(精灵，吸血鬼，火神，时间领主等)",
+        "sideEffect": "你永远不会被你爱的人爱",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 67,
+        "get": "你会说时间上所有语言",
+        "sideEffect": "你的发音会是史上最差的",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 68,
+        "get": "你想吃什么就吃什么，不会变胖",
+        "sideEffect": "你会失去所有的味蕾",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 69,
+        "get": "没有人讨厌你，事实上，他们很钦佩你",
+        "sideEffect": "你讨厌你自己",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 70,
+        "get": "你会知道你的人生目标",
+        "sideEffect": "但完成它的难度翻倍",
+        "comment": [],
+        "press": [],
+        "noPress": [
+            2180915872
+        ]
+    },
+    {
+        "index": 71,
+        "get": "你玩电子游戏的时薪150RMB",
+        "sideEffect": "你只能玩古早游戏，如《马里奥》、《魂斗罗》和《扫雷》等",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 72,
+        "get": "你打个响指就能得到你想要的任何东西",
+        "sideEffect": "但你的整个右侧身体都是二级烧伤，没有任何东西，甚至你的能力也无法隐藏或去除疤痕",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 73,
+        "get": "你可以拥有你的梦中情人",
+        "sideEffect": "你每周会做一次非常可怕的噩梦",
+        "comment": [],
+        "press": [
+            851863047
+        ],
+        "noPress": []
+    },
+    {
+        "index": 74,
+        "get": "你不用选举就能成为总统",
+        "sideEffect": "一辈子只能穿泳裤",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 75,
+        "get": "你会成为你最喜欢的一个运动员",
+        "sideEffect": "你会经常受到批评",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    },
+    {
+        "index": 76,
+        "get": "你会得到一栋建于19世纪90年代的豪宅，但不能出售。它的状况仍然很好，物业税、家具、水电费等都包括在内。离你现在住的地方不远",
+        "sideEffect": "你再也不能使用触摸屏了",
+        "comment": [],
+        "press": [],
+        "noPress": []
+    }
+]

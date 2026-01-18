@@ -1,0 +1,82 @@
+<style>
+    body {
+        background-color: #39B6BA;
+        width: 600px;
+        height: 300px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .textbox {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-align: center;
+        word-wrap: break-word;
+        background-color: #f9f9f9;
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        margin: 10px 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="textbox" id="textbox">{{get}}</div>
+        <div class="line"></div>
+        <div class="textbox" id="textbox">{{sideEffect}}</div>
+        <p>请发送</p>
+        <div class="buttons">
+            <button class="button">#按下</button>
+            <button class="button">#不按下</button>
+        </div>
+    </div>
+
+    <script>
+        const textbox = document.getElementById('textbox');
+        const textHeight = textbox.scrollHeight;
+        textbox.style.height = textHeight + 'px';
+    </script>
+</body>

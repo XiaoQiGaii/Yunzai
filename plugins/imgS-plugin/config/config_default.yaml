@@ -1,0 +1,47 @@
+default: SauceNAO
+next: 
+  - SauceNAO
+  - IqDB
+  - Yandex
+  - Ascii2d
+safe_mode: true
+send_choice: false
+proxy:
+  enable: false
+  host: 127.0.0.1
+  port: 7890
+SauceNAO:
+  similarity: 80
+  hide: false
+Ascii2d:
+  results: 3
+  type: color
+  proxy: true
+IqDB:
+  site: 2d
+  similarity: 80
+  discolor: false
+Yandex:
+  results: 3
+  cookie: ''
+TraceMoe:
+  similarity: 80
+  cutBorders: true
+AnimeTrace:
+  model: anime_model_lovelive
+  mode: 1
+  preview: true
+EHentai:
+  site: eh
+  cover: false
+  deleted: false
+  similar: true
+  cookie: ''
+Baidu:
+  results: 3
+Google:
+  results: 3
+NHentai:
+  factor: false
+  similarity: 80
+  results: 3

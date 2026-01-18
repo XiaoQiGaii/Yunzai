@@ -1,0 +1,38 @@
+{
+  "name": "guoba-plugin",
+  "version": "1.4.1",
+  "description": "Yunzai-Bot插件。兼容Miao-Yunzai（V3、V4）、TRSS-Yunzai",
+  "type": "module",
+  "module": "index.js",
+  "main": "index.js",
+  "scripts": {},
+  "imports": {
+    "#guoba.platform": "./models/platform.js",
+    "#guoba.utils": "./models/utils.js",
+    "#guoba.libs": "./models/libs.js",
+    "#guoba.adapter": "./adapter/index.js",
+    "#guoba.framework": "./framework/index.js",
+    "#guoba.framework.utils": "./framework/src/utils/common.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "1.4.5-lts.1",
+    "socket.io": "^4.7.5"
+  },
+  "keywords": [
+    "锅巴",
+    "Guoba",
+    "Guoba-Plugin",
+    "喵崽",
+    "Miao-Yunzai",
+    "TRSS-Yunzai",
+    "云崽",
+    "Yunzai-Bot",
+    "原神",
+    "Genshin"
+  ],
+  "author": "zolay",
+  "license": "GPL-3.0-or-later"
+}

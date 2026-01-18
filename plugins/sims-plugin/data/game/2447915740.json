@@ -1,0 +1,83 @@
+{
+    "name": "玩家9BXii9l",
+    "money": 1000,
+    "happiness": 100,
+    "life": 100,
+    "hunger": 100,
+    "thirst": 100,
+    "charm": 50,
+    "mood": 100,
+    "signature": "我是一名玩家",
+    "gender": "未知",
+    "disease": null,
+    "status": "健康",
+    "job": "医生",
+    "level": 1,
+    "stamina": 100,
+    "partnerAffection": 0,
+    "relationshipStatus": "单身",
+    "time": 16,
+    "weather": "暴风雨",
+    "temperature": 16,
+    "backpack": [],
+    "backpackCapacity": 100,
+    "location": "家",
+    "familyHappiness": 100,
+    "overdueTasks": 0,
+    "avatar": "default.jpg",
+    "lastSignInDate": null,
+    "dailySignIn": false,
+    "consecutiveSignIn": 0,
+    "bank": {
+        "balance": 0,
+        "savingsLimit": 10000,
+        "deposits": []
+    },
+    "doctor": {
+        "rank": "实习医生",
+        "level": 1,
+        "experience": 0,
+        "experienceNeeded": 1000,
+        "skills": {
+            "diagnosis": 50,
+            "surgery": 30,
+            "prescription": 40,
+            "communication": 60,
+            "research": 20
+        },
+        "specialty": null,
+        "hospital": {
+            "name": "社区卫生服务中心",
+            "level": 1,
+            "reputation": 50,
+            "patients": 0,
+            "maxPatients": 50,
+            "equipment": [],
+            "departments": [
+                "全科"
+            ],
+            "staff": 5
+        },
+        "stats": {
+            "patientsTreated": 0,
+            "patientsReceived": 0,
+            "surgeriesPerformed": 0,
+            "researchCompleted": 0,
+            "trainingCompleted": 0,
+            "eventsHandled": 0,
+            "mistakesMade": 0,
+            "livesLost": 0,
+            "livesSaved": 50
+        },
+        "currentPatients": [],
+        "schedule": [],
+        "certification": [
+            "基础医疗执照"
+        ],
+        "research": {
+            "currentProject": null,
+            "progress": 0,
+            "publications": 0
+        }
+    }
+}
